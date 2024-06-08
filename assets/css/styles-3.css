@@ -1,0 +1,21 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-password{
+    margin: 1rem;
+}
+
+#texto-validacion{
+    text-align: center;
+}

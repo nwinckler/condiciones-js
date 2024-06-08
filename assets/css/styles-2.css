@@ -1,0 +1,36 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+
+.img-sticker{
+    width: 250px;
+    height: 250px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.stickers{
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+}
+
+.validador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#texto-validador{
+    font-size: 1rem;
+}

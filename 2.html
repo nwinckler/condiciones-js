@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles-2.css">
+    <title>(2) Stickers</title>
+</head>
+<body>
+
+    <header>
+        <h1>STICKERS</h1>
+        <h3>
+            Ingresa la cantidad de stickers que quieres llevar
+            <br>
+            Puedes llevar hasta 10 stickers en total
+        </h3>
+    </header>
+
+    <section class="contenedor">
+        <div class="stickers">
+            <img src="./assets/imgs/sticker-1.png" alt="sticker-1" class="img-sticker">
+            <input type="number" placeholder="Cantidad de stickers" min="0" id="input-sticker-1">
+        </div>
+        <div class="stickers">
+            <img src="./assets/imgs/sticker-2.png" alt="sticker-2" class="img-sticker">
+            <input type="number" placeholder="Cantidad de stickers" min="0" id="input-sticker-2">
+        </div>
+        <div class="stickers">
+            <img src="./assets/imgs/sticker-3.png" alt="sticker-3" class="img-sticker">
+            <input type="number" placeholder="Cantidad de stickers" min="0" id="input-sticker-3">
+        </div>
+    </section>
+
+    <section class="validador">
+        <p id="texto-validador"></p>
+        <button id="boton-validador">Validar</button>
+    </section>
+    <script src="./assets/js/2.js"></script>
+</body>
+</html>
